@@ -26,8 +26,8 @@ const GameOverScreen = ({totalRounds, guessedNum , restartGame}) => {
                     <Ionicons name="add-circle-outline" size={20} color="white" />
                     Restart Game
                 </MainBtn>
-                <Text>{Dimensions.get('window').width} - Dimension Width</Text>
-                <Text>{Dimensions.get('window').height} - Dimension Height</Text>
+                {/* <Text>{Dimensions.get('window').width} - Dimension Width</Text>
+                <Text>{Dimensions.get('window').height} - Dimension Height</Text> */}
             </View>
         </ScrollView>
     );
